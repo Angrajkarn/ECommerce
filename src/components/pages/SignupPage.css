@@ -1,0 +1,107 @@
+/* SignupPage.css */
+
+/* Container styling */
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .signup-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+  
+  /* Form styling */
+  .signup-form .form-control,
+  .otp-form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label,
+  .otp-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .signup-form input[type="email"],
+  .signup-form input[type="text"],
+  .signup-form input[type="tel"],
+  .otp-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signup-form input[type="email"]:focus,
+  .signup-form input[type="text"]:focus,
+  .signup-form input[type="tel"]:focus,
+  .otp-form input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  /* Signup button styling */
+  .signup-button,
+  .verify-otp-button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover,
+  .verify-otp-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional options styling */
+  .additional-options {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .additional-options a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .additional-options a:hover {
+    color: #0056b3;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+}
